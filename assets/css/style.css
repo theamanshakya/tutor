@@ -16,7 +16,7 @@ a{
     margin: 10vh auto;
     border-radius: 50px;
     background: #f5f5f5;
-    box-shadow:  20px 20px 60px #d0d0d0, 
+    box-shadow:  20px 20px 60px #d0d0d0,
                  -20px -20px 60px #ffffff;
 }
 .login_icon_section{
@@ -28,7 +28,7 @@ a{
 .neum_button{
     border-radius: 15px;
 background: #f56565;
-box-shadow:  8px 8px 16px #d05656, 
+box-shadow:  8px 8px 16px #d05656,
              -8px -8px 16px #ff7474;
              color:#fff;
 }
@@ -42,7 +42,7 @@ box-shadow:  8px 8px 16px #d05656,
     font-size : 30px;
     border-radius: 50%;
     background: #f56565;
-    box-shadow:  20px 20px 60px #d05656, 
+    box-shadow:  20px 20px 60px #d05656,
                  -20px -20px 60px #ff7474;
 }
 .login_card{
@@ -51,11 +51,12 @@ box-shadow:  8px 8px 16px #d05656,
 }
 .login_card input{
     color:#ffffff;
-    width: 70%;
+    width: 65%;
+    margin: 0 2%;
     border-radius: 7px;
 background: #f56565;
-box-shadow: inset 6px -6px 12px #d05656, 
-            inset -6px 6px 12px #ff7474;       
+box-shadow: inset 6px -6px 12px #d05656,
+            inset -6px 6px 12px #ff7474;
 }
 input:focus,input:active, button:active,button:focus{
     border: none;
@@ -63,4 +64,33 @@ input:focus,input:active, button:active,button:focus{
 }
 .login_card input::placeholder{
     color:#ffffff;
+}
+.otp-section{
+  color: #ffffff;
+  text-align: center;
+}
+.social-media-login{
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+}
+.line-break{
+  width: 80%;
+  border: solid;
+  border-color: #ffffff;
+  border-width: thin;
+  margin: .8rem auto;
+}
+.smedia-login{
+  width: 70%
+}
+.smedia-icons{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #f56565;
+  box-shadow:  20px 20px 60px #d05656,
+               -20px -20px 60px #ff7474;
+  padding: 13px;
 }
