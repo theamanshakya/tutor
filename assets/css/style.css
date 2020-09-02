@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5f5;
+    background-size: 100%;
+}
+a{
+    cursor: pointer;
+}
+.login_section{
+    height: 70vh;
+    width: 80vw;
+    margin: 10vh auto;
+    border-radius: 50px;
+    background: #f5f5f5;
+    box-shadow:  20px 20px 60px #d0d0d0, 
+                 -20px -20px 60px #ffffff;
+}
+.login_icon_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+}
+.neum_button{
+    border-radius: 15px;
+background: #f56565;
+box-shadow:  8px 8px 16px #d05656, 
+             -8px -8px 16px #ff7474;
+             color:#fff;
+}
+.login_icon{
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    padding: 20px;
+    color:#fff;
+    font-size : 30px;
+    border-radius: 50%;
+    background: #f56565;
+    box-shadow:  20px 20px 60px #d05656, 
+                 -20px -20px 60px #ff7474;
+}
+.login_card{
+    width:90%;
+    border-radius: 0px 50px 50px 0px;
+}
+.login_card input{
+    color:#ffffff;
+    width: 70%;
+    border-radius: 7px;
+background: #f56565;
+box-shadow: inset 6px -6px 12px #d05656, 
+            inset -6px 6px 12px #ff7474;       
+}
+input:focus,input:active, button:active,button:focus{
+    border: none;
+    outline: none;
+}
+.login_card input::placeholder{
+    color:#ffffff;
+}
