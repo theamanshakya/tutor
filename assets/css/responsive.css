@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+  .login_card{
+      width:80%;
+      border-radius: 0px 0px 50px 50px;
+  }
+  .login_card {
+      font-size: 65%;
+  }
+  .login_icon{
+      width: 40px;
+      height: 40px;
+      line-height: 30px;
+      text-align: center;
+      padding: 7px;
+      color:#fff;
+      font-size : 15px;
+      border-radius: 50px;
+      background: #f56565;
+      box-shadow:  3px 3px 6px #d05656,
+               -3px -3px 6px #ff7474;
+}
+@media only screen and (min-width: 600px) {
+  .login_card{
+      width:90%;
+      border-radius: 0px 50px 50px 0px;
+  }
+  .login_icon{
+      width: 64px;
+      height: 64px;
+      line-height: 64px;
+      text-align: center;
+      padding: 20px;
+      color:#fff;
+      font-size : 30px;
+      border-radius: 50%;
+      background: #f56565;
+      box-shadow:  20px 20px 60px #d05656,
+                   -20px -20px 60px #ff7474;
+}
+}
