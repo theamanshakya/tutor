@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background: #f5f5f5;
@@ -106,6 +108,7 @@ input:focus,input:active, button:active,button:focus{
     color: #ffffff;
     background: #f56565;
     box-shadow: 9px 9px 18px #d05656, -9px -9px 18px #ff7474;
+    border-radius: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-58%, -46%);
@@ -143,3 +146,6 @@ input:focus,input:active, button:active,button:focus{
   font-size: 1.2rem;
   height: 40px
 }
+
+
+
