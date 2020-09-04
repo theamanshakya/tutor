@@ -19,6 +19,13 @@
       box-shadow:  3px 3px 6px #d05656,
                -3px -3px 6px #ff7474;
 }
+.profile {
+    font-size: 65%;
+    width: 80%;
+}
+.profile select{
+  width: 45%;
+}
 @media only screen and (min-width: 600px) {
   .login_card{
       width:90%;
@@ -36,5 +43,12 @@
       background: #f56565;
       box-shadow:  20px 20px 60px #d05656,
                    -20px -20px 60px #ff7474;
+}
+.profile {
+    height: 410px;
+    width: 62%;
+}
+.profile select{
+  width: 35%;
 }
 }
